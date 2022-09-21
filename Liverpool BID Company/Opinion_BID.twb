@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0624.2136                               -->
+<workbook original-version='18.1' source-build='2022.2.0 (20222.22.0624.2136)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hotel list (Exercise Data Sept 2022)' inline='true' name='federated.007n7ui17mdwry1dncrdx15rda5y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Exercise Data Sept 2022' name='excel-direct.135kgko0vkrvgw1gmsofh1ynozv5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/sowmy/Desktop/files/soWMee/jobs/job applications/LiverpoolBids/Exercise Data Sept 2022.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.135kgko0vkrvgw1gmsofh1ynozv5' name='Hotel list' table='[&apos;Hotel list$&apos;]' type='table'>
+          <columns gridOrigin='A1:L85:no:A1:L85:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Ref' ordinal='0' />
+            <column datatype='string' name='Name of Business' ordinal='1' />
+            <column datatype='string' name='In a BID already?' ordinal='2' />
+            <column datatype='string' name='Voting Intention' ordinal='3' />
+            <column datatype='string' name='OCCUPIER' ordinal='4' />
+            <column datatype='string' name='STREET' ordinal='5' />
+            <column datatype='string' name='PROP_DESC' ordinal='6' />
+            <column datatype='integer' name='RV' ordinal='7' />
+            <column datatype='string' name='Primary Contact' ordinal='8' />
+            <column datatype='string' name='Primary Contact email' ordinal='9' />
+            <column datatype='string' name='Secondary Contact' ordinal='10' />
+            <column datatype='string' name='Secondary Contact email' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.135kgko0vkrvgw1gmsofh1ynozv5' name='Hotel list' table='[&apos;Hotel list$&apos;]' type='table'>
+          <columns gridOrigin='A1:L85:no:A1:L85:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Ref' ordinal='0' />
+            <column datatype='string' name='Name of Business' ordinal='1' />
+            <column datatype='string' name='In a BID already?' ordinal='2' />
+            <column datatype='string' name='Voting Intention' ordinal='3' />
+            <column datatype='string' name='OCCUPIER' ordinal='4' />
+            <column datatype='string' name='STREET' ordinal='5' />
+            <column datatype='string' name='PROP_DESC' ordinal='6' />
+            <column datatype='integer' name='RV' ordinal='7' />
+            <column datatype='string' name='Primary Contact' ordinal='8' />
+            <column datatype='string' name='Primary Contact email' ordinal='9' />
+            <column datatype='string' name='Secondary Contact' ordinal='10' />
+            <column datatype='string' name='Secondary Contact email' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L85:no:A1:L85:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ref</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ref]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Ref</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name of Business</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name of Business]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Name of Business</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In a BID already?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[In a BID already?]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>In a BID already?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Voting Intention</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Voting Intention]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Voting Intention</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OCCUPIER</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OCCUPIER]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>OCCUPIER</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STREET</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STREET]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>STREET</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROP_DESC</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PROP_DESC]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>PROP_DESC</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RV</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RV]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>RV</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Primary Contact</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact email]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Primary Contact email</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Secondary Contact</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Secondary Contact]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Secondary Contact</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Secondary Contact email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Secondary Contact email]</local-name>
+            <parent-name>[Hotel list]</parent-name>
+            <remote-alias>Secondary Contact email</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' caption='In a BID already? (copy)' datatype='string' default-role='measure' default-type='quantitative' name='[In a BID already? (copy)_1936547850683961345]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[In a BID already?]' />
+      </column>
+      <column datatype='string' name='[In a BID already?]' role='dimension' type='nominal' />
+      <column caption='Occupier' datatype='string' name='[OCCUPIER]' role='dimension' type='nominal' />
+      <column caption='Prop Desc' datatype='string' name='[PROP_DESC]' role='dimension' type='nominal' />
+      <column caption='Street' datatype='string' name='[STREET]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Voting Intention (copy)' datatype='integer' datatype-customized='true' name='[Voting Intention (copy)_1936547850683768832]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT([Voting Intention])' />
+      </column>
+      <column aggregation='CountD' datatype='string' name='[Voting Intention]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hotel list' datatype='table' name='[__tableau_internal_object_id__].[Hotel list_B8A279A812D84B56817E5FEB30D96FBF]' role='measure' type='quantitative' />
+      <column-instance column='[Voting Intention]' derivation='Attribute' name='[attr:Voting Intention:nk]' pivot='key' type='nominal' />
+      <column-instance column='[In a BID already?]' derivation='None' name='[none:In a BID already?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Voting Intention]' derivation='None' name='[none:Voting Intention:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:Voting Intention:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Voting Intention:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:In a BID already?:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;C&amp;C&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;R&amp;L&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hotel list' id='Hotel list_B8A279A812D84B56817E5FEB30D96FBF'>
+            <properties context=''>
+              <relation connection='excel-direct.135kgko0vkrvgw1gmsofh1ynozv5' name='Hotel list' table='[&apos;Hotel list$&apos;]' type='table'>
+                <columns gridOrigin='A1:L85:no:A1:L85:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Ref' ordinal='0' />
+                  <column datatype='string' name='Name of Business' ordinal='1' />
+                  <column datatype='string' name='In a BID already?' ordinal='2' />
+                  <column datatype='string' name='Voting Intention' ordinal='3' />
+                  <column datatype='string' name='OCCUPIER' ordinal='4' />
+                  <column datatype='string' name='STREET' ordinal='5' />
+                  <column datatype='string' name='PROP_DESC' ordinal='6' />
+                  <column datatype='integer' name='RV' ordinal='7' />
+                  <column datatype='string' name='Primary Contact' ordinal='8' />
+                  <column datatype='string' name='Primary Contact email' ordinal='9' />
+                  <column datatype='string' name='Secondary Contact' ordinal='10' />
+                  <column datatype='string' name='Secondary Contact email' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hotel list (Exercise Data Sept 2022)' name='federated.007n7ui17mdwry1dncrdx15rda5y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.007n7ui17mdwry1dncrdx15rda5y'>
+            <column datatype='string' name='[In a BID already?]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[RV]' role='measure' type='quantitative' />
+            <column aggregation='CountD' datatype='string' name='[Voting Intention]' role='dimension' type='nominal' />
+            <column-instance column='[In a BID already?]' derivation='None' name='[none:In a BID already?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Voting Intention]' derivation='None' name='[none:Voting Intention:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RV]' derivation='Sum' name='[sum:RV:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.007n7ui17mdwry1dncrdx15rda5y].[none:Voting Intention:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Voting Intention:nk]' />
+              <groupfilter function='member' level='[none:Voting Intention:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.007n7ui17mdwry1dncrdx15rda5y].[none:Voting Intention:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.007n7ui17mdwry1dncrdx15rda5y].[none:In a BID already?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.007n7ui17mdwry1dncrdx15rda5y].[sum:RV:qk]</rows>
+        <cols>[federated.007n7ui17mdwry1dncrdx15rda5y].[none:Voting Intention:nk]</cols>
+      </table>
+      <simple-id uuid='{0FE0B2DD-8901-4CD5-B27B-FBAAD656DD69}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='45100' x='800' y='1000'>
+              <zone h='98000' id='3' name='Sheet 3' w='45100' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='533' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='53300' x='45900' y='1000'>
+              <zone h='11625' id='8' name='Sheet 3' pane-specification-id='0' param='[federated.007n7ui17mdwry1dncrdx15rda5y].[none:In a BID already?:nk]' type-v2='color' w='53300' x='45900' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 3' w='45100' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11625' id='8' name='Sheet 3' pane-specification-id='0' param='[federated.007n7ui17mdwry1dncrdx15rda5y].[none:In a BID already?:nk]' type-v2='color' w='53300' x='45900' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A315199C-38F1-49B2-B9FB-C1D971658179}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.007n7ui17mdwry1dncrdx15rda5y].[none:In a BID already?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.007n7ui17mdwry1dncrdx15rda5y].[:Measure Names]</field>
+            <field>[federated.007n7ui17mdwry1dncrdx15rda5y].[none:In a BID already?:nk]</field>
+            <field>[federated.007n7ui17mdwry1dncrdx15rda5y].[none:Voting Intention:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0BE83A5E-85AF-422E-9929-9D9E86C5668B}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.007n7ui17mdwry1dncrdx15rda5y].[none:In a BID already?:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{4EAB9F77-6223-4501-970C-81E8D6D84BDE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      wAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAATo0lEQVR4nO3dd3Cc9ZnA8e9bdrVFWvVqS7JcJFtgY4zBOBADMSmUUEJJIQncTRJyyeUf
+      CCUhOTIp57m53E1yIZkcQ7iDC4QkhMSUgONQbCywwU1ykWVJttWLLa2k1Urb3ve9PyTZEmCS
+      cdHu8ns+M8xgafctq/er9117dx/NcRwHIRSkaZqmJ3sjhEgmCUAoTQIQSpMAhNIkAKE0CUAo
+      TQIQSpMAhNIkgNkQbuWRHzzAC43jTP2ro92/nX978Ids67ZPejc7EWVocJj41L9Vjg/y/H8/
+      wH8+33jam/TG/36XHz++hZGTr53o6DDDY/FTX4kdJzQUZPz4IkbZ+tRP+PbDr536Ms8wCWA2
+      +Isocwep27aXKAA2XXu3c2Akl7lFJ/8RhA/V8a07v89+azIA3UV+aRVz832nvUkjfW109Y1g
+      nfQWY7zxyLf5zu/2nPpKQgf46T1f44WWqS8YBArnUlWac+rLPMPMZG+AGrI4/6LF/HFDPf1j
+      F1LhCXFgfytlyz9NqQl2fJQtzzzKX3Z24K9cyc233kCFp5/fPfoYzX19PHTfPWRXrOZbt6/F
+      1CEeSUCkjxeffILIorXE6p9nd4/N6hvu4KoLyzFjI9Rveo4/vtyAXjSfhQEv59/6RWoD77Fp
+      jk3LG7+leV8HezoHCWWfy+1fvJZIwzP89rWDHHL/gm/uzWH15+7npuWZNG9az2MbtmN553D9
+      7f/IxfMCtL/+JC+25TI/0M3LW1oovfAa7lhbzebfPsa2Q93s+8k32ZpVxVd+eAcZbofx4djE
+      qp0EDRse44+vNUFeDTd87hbOm+vjyNsv8FKTl+VZ7Wx4sxnf4iv58m0fJdd15n8ycgaYJTnL
+      L6d4ZB9t3cPEB/vYecRh1cWV6NYodb96kD/1LuLr3/0+V1cc5b9++gjd8SJuvv0LLCyu5as/
+      +lfWff1G8nwafa0NNHYMgzXG4b07qNtzlA9//i6+fk0xf37qadqHHBo2/IqH/zrIbXd/h3uv
+      nc/mTW8zEDvZljkEuxoZcFXwtbu+Qc1YHU/X9VJ7+U3cvGYR1Z+4k3Xr1nHDeQGaX/kNj2yN
+      8s8P/oB7Pr2I3//4p+wasBjp3MPGLQ1kLrue++68jq4X/8DumJurP/15Lqwq5cZvrGPdujtZ
+      mGEw1NnEjoM9QIzW9T/mZ3UuPn/vg9y+xs+v/uMhGrpDDPe18Orzr+FZfgP3PXAb8c2/YeO+
+      0Fn5uUgAs8TtrWRBYYKmzl4GjrUxYBZyTkEmDLWw8e0Rrrjuo5Rmelm08koKh5s5ODCMbuho
+      aJimC5dpoL3HcqvPX0VZjhdPph8tHsWyYM9bu6n+8BrmFWTh9WSgG+91z5nm5HrI9GbgzdCI
+      RS10w8DQNTTdwOVyYSTC7K2vp6ezkV///CEefX47wWArnT1jgIuS8iVUzyvAk+HF7djEbDAM
+      A13T0A0XLpeJPn0zoj288uoeVl7zKRbm+alYcimLM/rY3n4MgJyFS6mdk4c3y48HiMZO47nI
+      +5BLoFmiu72cc2456/e30TOyH0/ZEvKzPDAYZ9w28Hgmfhfpuo6ZsBm3bN7ziP87hCPjeDLc
+      Z/a3m20TicQpOf9qbv3YYgD0z7nJyfdx5FSeJlhxxuMJcjweADRNx9RtItGTPys5G+QMMEs0
+      3cWCJcsIH21i+95WymuXkOnWIL+SDy3Q2Pb6HkJxi56W3fT6S6nJzcLt8eJ1j9F/LIpl2zj8
+      fa9crygv4XBjKyPRGEPBQaLRU/nt6SIr4CU6cJRQwsI2vcxfMIej+/ZjBYopn1uG2xlldOx9
+      Dli3lyy3wcDAAJZlY0/ffF8JFy+fx64tmzg6Hmegq5HW0SyWVeadwraeOglg1mjkllcxb7SR
+      zW0uaqsrJ06/rkKuvOMr5DU9wXfvuYufv3CQtTd/lqo8Hxkli7nlkwv5/ffu5d6HniE4lkA3
+      XJiGBmgYpokx+RPUNH3iMkmDi6+9lYLujfzLt77HU68dIGLr7zqZ6IYL09QBDV030Q1jcplT
+      y8+g9mM3Udb2DPfdfS/P7h1j2cc+w7XlR/nRt+/irnsf4Mm/7mPM1tAMA5dpTG6IjulyTVzu
+      eMu56saP0PD4A9x93y9pjSbQDBOXqQOZrLjlq6yIvsKP7v8m6x7dxLLrP8uKsuyJyy5z6tDU
+      MFwmun6Kp8O/9VORN8R8wDgOowPdjHsKyPcZBHev5/6HW7j/Z/ex4Cz8LUo60zRNk+cAH0DH
+      Dr7JH+paCI9HiY5brLz+U8yTg/89yRlgkuM4OI6Drqf5VaHjYCWihMPjxC0b3XDjz/TjNtN8
+      v84CTdM0CWCS4zjEYjEyMjKSvSlilsh7goXyJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEpL
+      j5dCOBajx7rojwWonJPD5MuusCLDtLd1EYom8AQKmTu3BJ9pEzraTWe/xbzaeXiPv4bKYaT3
+      EB0hg4qKcrIyjJOsTKgk5c8AdmKcA2+9zEsvrWfD662T76kFwj1sfmUT+9p6CQYHadqxhbf3
+      dhBzErQ17aHuz+s5EJz2hnMnRMPGTWx8czOdwbPz5gqRflL+DBANHiFozueKy3w898b07/hZ
+      fPEa8gMBXIbGUPtethxoYTxWDK5sVlxYQdPOQ5y7diEuzSHed4j27BrONTuTtSsiBaX8GcBb
+      uITVFywkL9Mz8xv+AKV5ObhNHU2zONbbizurmIzJpM05yygZ2UffuANOgs7Dx5hTVYJ5dl5W
+      LtJUyp8B3o/jOCQiQfbVvUKzM5/LVy8iw5h4bZ+uZZFfYtLfM8ycOQ4d4zrlFVm0TzsBxONx
+      LOvEO5ps22ZsbGy2d0MkUVoHEAse4dXX3kYrX8mNF1Rh6hpMPUvQNUqLStnV186gPxNb85Cb
+      7aN92v1dLhcu18QL5eXVoGpK3wASg+zYvJuc5Wu5YF4+7365u0ZOQR5jzR0M9A2g5dSQKW8K
+      Ee+Q8gGMB3voGghDqJfQsMbhlhYCOSXkhRrZH/exxg7SdigIQEaggNIC7/H7mtklVJv72Lp/
+      iNVXX4aOXN6ImVI+gEiwi+bmo4DBwgpob24mqzKTvPwSqvMO0trcfPy2gTkGhXmZFM+tAJ8P
+      NA9V5y1iuMtFebaOlnBTVb0Uf2bK77aYJfKOsEnyHEA98o4woTwJQChNAhBKk2eDHxCx8SgH
+      /lqflHW7PC6WfPT8pKz7dEkAHxCJaJzDWw8kZd2egDdtA5BLIKE0CUAoTQIQSpMAhNIkAKE0
+      CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMA
+      hNIkAKE0CUAoTQIQSkuPABybeGSUUDiGPePrDlY8wshIGOv4Z/w6xCJhhoIhEjM+9tchNjZC
+      cDhE3JLPAxYTUj4A24rSdXAnrz77fzz+3B4ix7/jEB44Qt3GP/GLh5/lWHwqjRgH39rIYw/9
+      D02j0w50Z5xd63/DL596mpajUYSANAggMtBCY0eCipoqvNO/Md7H7j1dZJdVUJybOfNOGYWs
+      WpHD3n19TCVgD3fQqi9geblvlrZcpIOUD8BbWMvatauoKS+YubGeYj50+SUsq6kkK+Pdn/Do
+      W3QRBR076Y064Fh0NXdQVFM5bXC2EGnw2aCaNnHEvuuqXdN4v2NZ13PJL47R3xempMSifUSn
+      ojqL7p4Tt0kkEtj2iWcVlmURiUTeY2mpLxaNJW3djkPaPm4pH8Ap03SKC0s50NPBiM9PTDfJ
+      C/jpnnYTwzDQ9RPnFdu2cbvds7+tZ4Dliidt3Rqk7eP2AQ5AI7+okJH2Ho71D6BnziPg0d5x
+      E+3EGcZx0DRtRhDpRNOTeG2nkbaPW8pvtZ2IE4lEiEbj2FacaCRCLGHh2BaxaJRINIZlJYjF
+      okRicexpI8/cOUWUJUZoOHiE3MpSjCTuh0hNKX8G6N/3Ms9uOzHe+vePN5C/9EquqYrywitv
+      MjCaAODFJ38NBdXc+vGLyM4rAL8bjEzOWVpIz8E5LChyocUtikrKCXhSvnsxS2RK5KR0nxI5
+      NjTKxn9/Jinr9gS8fPy+W5Ky7tMhUyKF8iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE
+      0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChN
+      AhBKkwCE0iQAoTQJQChNAhBKkwCE0lL+49EdO8HI0U6adm6ifuw8brtpORNj7iyCR+p56eW3
+      GIhAee1qLlt9LjmeBI1bXuSlTUe57u4vsWBqKIYTo/7Zx3ihx8PNn7qF6iJPEvdKpIqUPwNE
+      h47w9o4mYl4/etw6/nUn3M1rb7ay7Jov8k93foHiyAF2N/aScMByFbKyVmdPY/D4bDEn3MHB
+      0XKWVrix7Pdel1BPygfgyixl1WWXs3pp5YwJL6Huw8TLlrKkxIdh+qk5p5bIYBuRiXkZZFcv
+      x9XSQNBywLEZONKBd34FWTIlUkyT8pdAhttPlhuc6MwjdyycICfXe7xgj8eHbgRJTJ4ktIy5
+      lBZsobs3Qm5xgtY+m/kLc+gfOrEMy7KYmg/iOA62bROLJW/a4ulIxBNJW7fjkLaPW8oHcHIO
+      M2fbOEwfdqNpOvn5xbT39TDu9xLWoTLLT/+0e2iadvw+UwPzpobmpZtkb3ey13+q0jYAf1YG
+      wbZRbCau48bGwjh2BubUHmkaxSVF1Df00Z9pYHoqyfHPHJOn6/rx6YaO42BZFi6Xa1b340yJ
+      m8kbAahppO3jlvLPAU4ms2w+/r566jtHsRIh9jfsxVtYiXfaceDJLSIvMkJTSyv+ijmk549I
+      nE0pfwbo3vk8f6g7DHaU0Bg88rM3KFp+FZ/58HyuuOJ8/rLhCepGNRZecDmXLinG0BJkeLzg
+      MsAV4JwqF+sby7iwxINmjeHzZ5FhpufpWpx5MiVykkyJPHUyJVKINCUBCKVJAEJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglJbyH49+Mo5jMdTewEsbtzIY
+      d3Humk9yyZIiTD3O4Z2beGVbmGu/cj3FxtSUSJtDW55mQ4eXaz7xcSry3MndAZES0vQM4BBu
+      28Fzdd1c9tkv89V/uI7wrufYsv8oluMQjvuoyu1lR9PoiSmRkU4aDnkpzh4jHJMxkWJCmgaQ
+      oLcjxPyV51PmNzE8RaxYWcNw5xEik0Py8hefS/TAfkYdAIdQZztWZQV5abrH4uxI00sgjYwM
+      h6HBEWJWKW7dwXT7sawBpoYl6pkLmJu5ha6jK6jJj9HaEWPhvDyCTSeWYtv2jMF6U3PC0pGd
+      zOHHDmn7uKVpACYl1TU0vr6NF55rwjRcaFaIkJ13/BaaZpBfVERPTw8xj5ugBksCWQSnLWVq
+      NOrU/zuOQyKRvHGjpyOZB6ADafu4pWkA4MqZy+UfyaR/YAQLg2iwjeZ+Y9qUSJ2iggIaW/o4
+      luPBMIoI+GfurmEYGMbEVL2pANJ1RJLljidt3ZpG2j5u6XtFHA0zFDMpnVtBWb6H/q5+8isX
+      4pt2jGcWleAJDdHafABPRRWe9N1bcZak7RmAeJj9b7xKU8cQjulh4dJLWD0/H51pE8vdOdQW
+      RXh6n5ub1/jBGU3e9oqUlL5TIh0H27awbAc0DcMw0DUNcLAnv6ZrGo5tYTkTlzs4Do5tg65P
+      3nb64mRK5KlK5ymR6XsG0DR0w0R/14B0DV0/cXBrunHiNKdpaEbyJqqL1CNXxUJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKWl74fjAuPHWni9bjdD
+      USitvoALllbhMxL0HNzF9n1RLr3+UnKPJ+7Qs+dVtvZm8KFVF1EccCVz00WKSNszQGLwIM++
+      tIu8xau4bM0qrI632Ly9hZhtMTAQxh7YRUNH9MSUyHg/DTuPEQq1MziWnvOsxJmXtgGEj3UT
+      K13CyppyikvKWba0Bmuol6gF6C7mnbeE/vpGIpNTIsc6DzNUtoByb9rusjgL0vZo8JdUEuht
+      Yn/fKLFoiNaDLWQUluOZvKjTc2oo01voGbFxnBjt7WEqK/KZPhZjai7YOydFpuN/yZbs/T/V
+      xyxtnwMY3iKWnVfK1ueeYFMc8hcs55J5BUyNv9D0DIpK8+jr6KV8nkm3pbE4N0DztGVYljVj
+      uqJlWUQikVndjzMlEokmbd2OQ9o+bmkagM1Aaz313SZXfeFLZLug+8A2duzeyxWXLJu4iaZT
+      mJ9Pa0cvg7l+TD2brEz3jKWYpok5OVYy3UckOdHkPa/RNPB6vUlb/+lI00sgm/GREWyPH6+h
+      gabh8/mIjo0Qt05cDmQXFeMMD9FxpAmzdAF+mY4k3iFNzwAmJdW1ZG1+iz+/eBiXBvFIhNLF
+      F5PpOXGUa74CarPDvNgS45oVOYBMiRQzpWkA4Mop57K1AfoHhohb4M3KJS83gFt3mH/OMjA9
+      gMmcCy7l+hqdQi/otpcVq6/E5Xf/zeULNaRtAKDh9ucw15/zrq/7MrOO/8n05VLqm/yDbhDI
+      yZ+1LRSp7/8BD/L36WaO2tAAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
